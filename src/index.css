@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 100px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+header .title {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+header .buttons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+header .buttons .item {
+  background: #6088f8;
+  padding: 6px 48px;
+  border-radius: 12px;
+  cursor: pointer;
+  color: #fff;
+}
+table {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 12px;
+  background-color: #fff;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td {
+  width: calc(100vw / 8);
+  min-height: 50px;
+  height: 50px;
+  text-align: center;
+}
+td input {
+  max-width: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  width: 80px;
+}
+
+.button {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 12px;
+  width: fit-content;
+  background: #6088f8;
+  padding: 6px 48px;
+  border-radius: 12px;
+  cursor: pointer;
+  color: #fff;
+}
